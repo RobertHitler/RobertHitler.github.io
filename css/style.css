@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_header{
+	background-color:#E9E9E9;
+	box-shadow: 7px 7px 7px 2px #CBCBCB;
+	
+}
+.logo{
+	padding: 5px 0px;
+	
+}
+
+.name_R_H{
+	margin:0; 
+	height: 280px;
+	text-align: center;
+	padding: 100px 0px;
+}
+.name_R_H h1{
+	color: black;
+	font-size: 74px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.header-text{
+	color: black;
+	font-family: 'Play', sans-serif;
+	text-align: center;
+	padding: 50px;
+	
+}
+.header-text h2{
+	padding: 10px 0px;
+	margin-bottom: 50px;
+}
+
+.header-text h2::after{
+	content:"";
+	position: absolute;
+	bottom: 110px;
+	left: 50%;
+	width: 150px;
+	height: 1px;
+	background-color:#8A8A8A;
+	margin-left: -75px;
+	
+}
+ul.nav_li {
+	list-style-type: none;
+    margin: 30px 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.nav_li li {
+	background-color:#E9E9E9;
+	width: 30%;
+	float: right;
+	padding-right: 50px;
+	
+	
+}
+
+ul.nav_li li a {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.nav_li li:hover {
+	background-color:#8A8A8A;
+	
+	
+	
+}
+
+ul.nav_li li a:hover {
+    color: white;
+    
+}
+.header{
+	background-image: url(../images/header_Bg.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+	
+}
+
+.design_code{
+	color: black;
+	padding: 50px 0px;
+	margin-top: 20px;
+	text-align: center;
+	font-family:'Source Code Pro', monospace;
+}
+
+.design_code h1{
+	height: 250px;
+	padding-top: 100px;
+}
+
+
+
+
+
