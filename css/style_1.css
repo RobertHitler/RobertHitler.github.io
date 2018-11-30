@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.main_content{
+	width: 80%;
+	height: 600px;
+	padding-left: 180px;
+}
+
+.my_pic{
+	width: 100%;
+	height: 500px;
+	background-image: url(../images/my_img_1.png);
+	padding: 10px 30px;
+	margin: 0;
+	margin-top: 50px;
+	border-bottom: 5px solid #4C4A4A;
+	border-right: 5px solid grey;
+	box-shadow: 7px 7px 7px 2px #4C4A4A;
+}
+.my_pic p{
+	font-size: 20px;
+	font-family: 'Play', sans-serif;
+	text-align: center;
+	width: 50%;
+	height: 50px;
+	padding: 10px 30px;
+	margin: 70px;
+}
+.my_pic:hover{
+	background-image: url(../images/my_img_2.jpg);
+	
+}
+.abt_me{
+	width: 100%;
+	height:550px;
+	background-color: #E9E9E9;
+	background-image: url(../images/abt_me_Bg.png);
+	border-bottom: 5px solid #4C4A4A;
+	border-right: 5px solid grey;
+	box-shadow: 7px 7px 7px 2px #4C4A4A;
+	/*opacity: 0.5;*/
+}
+.abt_me h2{
+	color:black;
+	font-size: 60px;
+	font-family: 'Play', sans-serif;
+	text-align:center;
+	padding-top: 50px;
+	margin-top: 30px;
+}
+.abt_me h5{
+	color:black;
+	font-size: 25px;
+	letter-spacing: 5px;
+	font-family: 'Play', sans-serif;
+	text-align:center;
+	padding: 5px 10px;
+	margin-top: 5px;
+}
+.abt_me p{
+	color: black;
+	letter-spacing: 3px;
+	font-size: 16px;
+	padding: 50px 50px;
+	font-family: 'Josefin Sans', sans-serif;
+}

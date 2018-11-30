@@ -74,7 +74,7 @@ ul.nav_li li a {
     text-decoration: none;
 }
 .btn{
-	padding: 10px 66px;
+	padding: 6px 59px;
 	background-color: #E9E9E9;
 	
 }
@@ -124,34 +124,49 @@ ul.nav_li li a:hover {
 }
 
 .coder_bg{
-	width: 70%;
-	height: 250px;
+	width: 60%;
+	height: 200px;
+	margin-top: 25px;
 	padding-top: 100px;
 	margin-left: 130px;
 	background-color: #E9E9E9;
 	box-shadow: 7px 7px 7px 2px #CBCBCB;
 }
 .designer_bg{
-	width: 70%;
-	height: 250px;
+	width: 60%;
+	height: 200px;
+	margin-top: 25px;
+	margin-left: 90px;
 	padding-top: 100px;
 	background-color: #E9E9E9;
 	box-shadow: 7px 7px 7px 2px #CBCBCB;
 }
 
 .coder_bg:hover{
-	margin-left: 150px;
-	width: 60%;
-	height: 200px;
-	margin-top: 25px;
+	background-image: url(../images/code.PNG);
+	opacity: 0.5;
+	margin-left: 100px;
+	width: 70%;
+	height: 250px;
+	box-shadow: 10px 10px 10px 5px grey;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+	
 	
 }
 .designer_bg:hover{
-	width: 60%;
-	height: 200px;
-	margin-top: 25px;
+	background-image: url(../images/domnum_prtnm.png);
+	opacity: 0.5;
+	width: 70%;
+	margin-left: 70px;
+	height: 250px;
+	box-shadow: 10px 10px 10px 5px grey;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+	
 	
 }
+
 
 .contact{
 	color: black;
@@ -179,10 +194,10 @@ footer{
 }
 #copyrights p{
 	color: black;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 600;
 	text-transform: uppercase;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 #copyrights p a{
 	text-decoration: none;
