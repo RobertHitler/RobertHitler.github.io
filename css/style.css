@@ -47,6 +47,12 @@
 	margin-left: -75px;
 	
 }
+#myInput{
+	font-size: 10px;
+	width: 300px;
+	height: 30px;
+	background-color: #E9E9E9; 
+}
 ul.nav_li {
 	text-align: center;
 	list-style-type: none;
@@ -167,20 +173,16 @@ ul.nav_li li a:hover {
 	
 }
 
-
 .contact{
 	color: black;
-	background-color:#E9E9E9; 
+	padding: 40px 40px;
+	text-align: center;
+	
 }
-.email{
-	padding: 10px 0px;
-	float: right;
-	font-size: 21px;
-}
-.phone{
-	padding: 10px 0px;
-	float: left;
-	font-size: 21px;
+.contact_email{
+	padding-bottom: 30px;
+	width: 100%;
+	background-color: #E9E9E9;
 }
 
 footer{
@@ -191,6 +193,7 @@ footer{
 }
 #copyrights{
 	width: 70%;
+	float: left;
 }
 #copyrights p{
 	color: black;
