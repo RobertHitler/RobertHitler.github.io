@@ -13,22 +13,25 @@
 }
 
 .name_R_H{
-	margin:0; 
-	height: 280px;
+	margin-top: 100px; 
+	height: 180px;
 	text-align: center;
 	padding: 100px 0px;
 }
 .name_R_H h1{
 	color: black;
-	font-size: 74px;
-	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	letter-spacing: 10px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
 }
 
 .header-text{
+	margin-bottom: 80px;
 	color: black;
-	font-family: 'Play', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	padding: 50px;
+	padding: 35px;
 	
 }
 .header-text h2{
@@ -39,7 +42,7 @@
 .header-text h2::after{
 	content:"";
 	position: absolute;
-	bottom: 110px;
+	bottom: 170px;
 	left: 50%;
 	width: 150px;
 	height: 1px;
