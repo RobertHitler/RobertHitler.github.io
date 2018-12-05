@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .main_content{
-	width: 80%;
+	width: 100%;
 	height: 600px;
 	padding-left: 180px;
 }
@@ -43,7 +43,7 @@
 .abt_me h2{
 	color:black;
 	font-size: 60px;
-	font-family: 'Play', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-align:center;
 	padding-top: 50px;
 	margin-top: 30px;
@@ -52,7 +52,7 @@
 	color:black;
 	font-size: 25px;
 	letter-spacing: 5px;
-	font-family: 'Play', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-align:center;
 	padding: 5px 10px;
 	margin-top: 5px;
@@ -68,7 +68,7 @@
 /*==features==*/
 
 .interests{
-	margin: 50px 0px;
+	margin: 150px 0px 100px 0px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
