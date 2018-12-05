@@ -68,7 +68,7 @@
 /*==features==*/
 
 .interests{
-	
+	margin: 50px 0px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -79,39 +79,30 @@
 }
 
 .interests-overlay{
-	background-color: rgba(31,31,31,0.75);
 	padding-top: 20px;
 	padding-bottom: 10px;
 	
 }
 .carousel{
-	background-image: url(../images/domnum_prtnm_bg.png);
+	background-color: rgba(31,31,31,0.75);
 }
 
 .carousel-inner{
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .testimon-caption{
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 
 .carousel-inner .item img{
-	border:2px solid #129CF3;
-	width: 50%;
+	border:2px solid #FFFFFF;
+	width: 30%;
 	height: 450px;
 	/*border-radius: 50%;*/
 	padding: 3px;
-}
-
-.testimon-caption h2{
-	margin-top: 20px;
-	color: #129CF3;
-	text-transform: uppercase;
-	font-weight: 800;
-	font-size: 30px;
 }
 
 .testimon-caption h4{
