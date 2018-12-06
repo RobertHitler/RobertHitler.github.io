@@ -9,7 +9,7 @@
 .main_content{
 	width: 100%;
 	height:600px;
-	background-color: rgb(60, 60, 93);
+	background-color: rgba(60, 60, 93,0.75);;
 }
 
 .my_pic{
@@ -21,7 +21,7 @@
 	margin-top: 50px;
 	border-bottom: 5px solid #4C4A4A;
 	border-right: 5px solid grey;
-	box-shadow: 7px 7px 7px 2px #4C4A4A;
+	box-shadow: 7px 7px 7px 2px #28283e;
 }
 .my_pic p{
 	font-size: 20px;
@@ -42,7 +42,7 @@
 	background-color:rgba(221,221,221,0.5);
 	border-bottom: 5px solid #4C4A4A;
 	border-right: 5px solid grey;
-	box-shadow: 7px 7px 7px 2px #28283e;
+	box-shadow: 9px 9px 7px 2px #28283e;
 	/*opacity: 0.5;*/
 }
 .abt_me h2{
