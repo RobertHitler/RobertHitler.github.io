@@ -39,8 +39,8 @@
 .abt_me{
 	width: 100%;
 	height:550px;
-	/*background-color:rgb(60, 60, 93);*/
-	background-image: url(../images/color_bg1.png);
+	background-color:rgb(60, 60, 93);
+	/*background-image:url(../images/color_bg1.png);*/
 	background-size: cover;
 	border-bottom: 5px solid #4C4A4A;
 	border-right: 5px solid grey;
