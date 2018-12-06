@@ -9,7 +9,7 @@
 .main_content{
 	width: 100%;
 	height:600px;
-	background-color: rgba(60, 60, 93,0.5);
+	/*background-color: rgba(60, 60, 93,0.5);*/
 }
 
 .my_pic{
@@ -39,7 +39,9 @@
 .abt_me{
 	width: 100%;
 	height:550px;
-	background-color:rgb(60, 60, 93);
+	/*background-color:rgb(60, 60, 93);*/
+	background-image: url(../images/color_bg1.png);
+	background-size: cover;
 	border-bottom: 5px solid #4C4A4A;
 	border-right: 5px solid grey;
 	box-shadow: 9px 9px 7px 2px #28283e;
