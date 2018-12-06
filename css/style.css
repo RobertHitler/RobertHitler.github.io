@@ -4,7 +4,7 @@
 .main_header{
 	background-color:#E9E9E9;
 	border-top: 5px solid black;
-	box-shadow: 7px 7px 7px 2px #CBCBCB;
+	box-shadow: 7px 7px 7px 2px #28283e;
 	
 }
 .logo{
@@ -129,7 +129,12 @@ ul.nav_li li a:hover {
 	margin-top: 20px;
 	margin-bottom: 100px;
 	text-align: center;
+	background-color: rgba(60, 60, 93,0.75);
 	font-family:'Source Code Pro', monospace;
+}
+
+#de_co.row{
+	background-color:rgba(221,221,221,1);
 }
 
 .coder_bg{
@@ -139,7 +144,7 @@ ul.nav_li li a:hover {
 	padding-top: 100px;
 	margin-left: 130px;
 	background-color: #E9E9E9;
-	box-shadow: 7px 7px 7px 2px #CBCBCB;
+	box-shadow: 7px 7px 7px 2px #28283e;
 }
 .designer_bg{
 	width: 60%;
@@ -148,16 +153,16 @@ ul.nav_li li a:hover {
 	margin-left: 90px;
 	padding-top: 100px;
 	background-color: #E9E9E9;
-	box-shadow: 7px 7px 7px 2px #CBCBCB;
+	box-shadow: 7px 7px 7px 2px #28283e;
 }
 
 .coder_bg:hover{
 	background-image: url(../images/code.PNG);
-	opacity: 0.5;
+	opacity: 0.85;
 	margin-left: 100px;
 	width: 70%;
 	height: 250px;
-	box-shadow: 10px 10px 10px 5px grey;
+	box-shadow: 10px 10px 10px 5px #28283e;
 	border-bottom: 5px solid black;
 	border-right: 5px solid black;
 	
@@ -165,11 +170,11 @@ ul.nav_li li a:hover {
 }
 .designer_bg:hover{
 	background-image: url(../images/domnum_prtnm.png);
-	opacity: 0.5;
+	opacity: 0.85;
 	width: 70%;
 	margin-left: 70px;
 	height: 250px;
-	box-shadow: 10px 10px 10px 5px grey;
+	box-shadow: 10px 10px 10px 5px #28283e;
 	border-bottom: 5px solid black;
 	border-right: 5px solid black;
 	
@@ -185,11 +190,11 @@ ul.nav_li li a:hover {
 .contact_email{
 	padding-bottom: 30px;
 	width: 100%;
-	background-color: #E9E9E9;
+	background-color:#7E7E7E;
 }
 
 footer{
-	background-color: #8A8A8A;
+	background-color: #333333;
 	padding-top: 28px;
 	padding-bottom: 28px;
 	border-bottom: 5px solid black;
