@@ -20,15 +20,19 @@
 }
 .works_content{
 	width: 100%;
+	background-color: #E9E9E9;
+	align-content: center;
+	margin: 50px 0px 100px 0px;
+	padding-bottom: 50px;
 	
 }
 
 
 .image {
-	width: 255px;
+	width: 25%;;
 	height: 265px;
 	float:left;
-	padding-left: 5px;
+	padding-left: 1px;
 	margin-top: 7%;
 	margin-left: 30px;
 	margin-right: 30px;
