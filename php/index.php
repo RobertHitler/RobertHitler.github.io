@@ -1,19 +1,19 @@
 <?php
-require 'PHPMailerAutoload.php';
+require 'C:\xampp\htdocs\robert_portfolio\php\phpmailer\PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+$mail->SMTPDebug = 2;                               // Enable verbose debug output
 
-//$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp1.gmail.com;smtp2.rediffmail.com';  // Specify main and backup SMTP servers
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'dilstar27micheal@rediffmail.com';                 // SMTP username
-$mail->Password = 'Robh!tler71';                           // SMTP password
+$mail->Username = 'dilstar7micheal@gmail.com';                 // SMTP username
+$mail->Password = 'H@ck3r71H!tl3r';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('dilstar27micheal@rediffmail.com', 'dilstar');
+$mail->setFrom('dilstar7micheal@gmail.com', 'dilstar');
 $mail->addAddress('robert.h.parikrma@gmail.com', 'robert');     // Add a recipient
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
