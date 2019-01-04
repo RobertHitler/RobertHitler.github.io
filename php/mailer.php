@@ -1,11 +1,3 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
 <?php
 $to = "robert.h.parikrma@gmail.com";
 $subject = "My subject";
@@ -19,6 +11,3 @@ if(mail($to,$subject,$txt,$headers)){
 	}
 
 ?>
-	
-</body>
-</html>
