@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css"  href="css/style.css" >
 <link rel="stylesheet" type="text/css"  href="css/style_1.css" >
+<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
 <!--google fonts-->
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond:400,500i|Josefin+Sans|Play|Source+Code+Pro" rel="stylesheet">
 <!--icon-->
@@ -30,7 +31,7 @@
 					<div class="navi">
 						<nav>
 							<ul class="nav_li" text-center>
-								<li><button class="btn" onclick="myFunction()"><i style="font-size: 30px;color: #7575a3;" class="fa fa-envelope"></i></button></li>
+								<li><button class="btn" onclick="myFunction()"><i style="font-size: 30px;color: black;" class="fa fa-envelope"></i></button></li>
 								<li><a href="About_me.html">About me</a></li>
 								<li><a href="works.html">Works</a></li>
 								
@@ -50,11 +51,11 @@
 			  <div class="col-md-8">
 					<div class="abt_me_overlay">
 						<div class="abt_me">
-							<h2 style="color: black;">about me</h2>
+							<h2 style="color: black;">About <span style="font-size: 20px">me</span></h2>
 							<h5>designer + coder</h5>
 							<p><strong>
-							I did my schooling in Parikrma Humanity Foundation and doing my college in Srishti Institute oArt, Design and Technology. I have always been fascinated by computers and enjoy doing works likweb design, coding and modelling. 
-							I have done basic coding for the web, coding for microcontrollers, coding in processing, basic 3modelling   in Fusion 360 and have basic technical understanding in AR (augmented reality).
+							I did my schooling in Parikrma Humanity Foundation and finished my college in Srishti Institute of Art, Design and Technology. I have always been fascinated by computers and enjoy doing works like web design, coding and modelling. 
+							I have done basic coding for the web, coding for microcontrollers, coding in processing, basic 3D modelling   in Fusion 360 and have basic technical understanding in AR (augmented reality).
 							Now I want to set my path on learning  AI (artificial intelligence) and Robotics.
 							When I am not in front of my computer, I spend my time listening to music and dancing.
 							</strong></p>  
@@ -63,7 +64,7 @@
 					</div>
 			  <div class="col-md-4">
 					<div class="my_pic">
-						<p>&lt;!--..--&gt;</p>
+						<p>&lt;&gt;</p>
 					</div>
 			  </div>
 			</div>
@@ -127,8 +128,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="contact">
-					<div class="col-md-12">
+					<div class="col-md-6">
 						<p style="padding: 0px 10px;"><strong style="padding-right: 20px;">CONTACT: </strong>Email Id -  <input style="padding-left: 20px;" type="text" value="robert.h.parikrma@gmail.com" id="myInput"></p>
+					</div>
+					<div class="col-md-1">
+					    <div class=github>
+					        <a href="CV_PAGE.html"><img src="images/github.png" style="height: 70px;width: 110px;"></a>
+					    </div>	
 					</div>
 				</div>
 			</div>
@@ -157,6 +163,7 @@
 		copyText.select();
 		document.execCommand("copy");
 		alert("Copied the text: " + copyText.value);
+        console.log("Hello world")
 }
 </script>
 </body>
