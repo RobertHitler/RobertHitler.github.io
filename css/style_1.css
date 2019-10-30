@@ -5,6 +5,9 @@
 	width: 100%;
 	height: 600px;
 	background-size: cover;
+    margin-top: 150px;
+    margin-bottom: 100PX;
+    
 }
 .main_content{
 	width: 100%;
@@ -13,12 +16,12 @@
 }
 
 .my_pic{
-	width: 100%;
+	width: 78.5%;
 	height: 500px;
 	background-image: url(../images/my_img_1.png);
+    background-repeat: no-repeat;
 	padding: 10px 30px;
-	margin: 0;
-	margin-top: 50px;
+    margin: 50px 0px 0px 100px;
 	border-bottom: 5px solid #707070;
 	/*border-right: 5px solid #707070;*/
 	box-shadow: 7px 7px 7px 2px lightgrey;
@@ -37,8 +40,9 @@
 	
 }
 .abt_me{
-	width: 100%;
-	height:550px;
+	width: 80%;
+	height:540px;
+    margin-left: 8%;
 	background-color:#b8b8b8;
 	/*background-image:url(../images/color_bg1.png);*/
 	background-size: cover;
