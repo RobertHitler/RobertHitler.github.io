@@ -25,41 +25,37 @@
 <body>
 <header>
 	<div class="main_header">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="logo">
-						<a href="index.html"><img src="images/PORTFOLIO_LOGO_2.0_1.png" alt="Logo" style="width: 120px;height: 100px;image-resolution: from-image;"></a>
-					</div>
-				</div>
-				<div class="col-md-8">
-					<div class="navi">
-						<nav>
-							<ul class="nav_li" text-center>
-								<li><button class="btn" onclick="myFunction()"><i style="font-size: 30px;" class="fa fa-envelope"></i></button></li>
-								<li><a href="About_me.html">About me</a></li>
-								<li><a href="works.html">Works</a></li>
-								
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div class="col-2 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+	          <div class="logo">
+		          <a href="index.html"><img src="images/PORTFOLIO_LOGO_2.0_1.png" alt="Logo" class='img_logo'></a>
+		      </div>
+        </div>
+        <div class="col-10 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+            <div class="navi">
+                <nav>
+                    <ul class="nav_li" text-center>
+		                <li><a href="works.html">Works</a></li>
+				        <li><a href="About_me.html">About me</a></li>
+				        <li><button class="btn" onclick="myFunction()"><i class="fa fa-envelope"></i></button></li>
+		            </ul>
+                </nav>
+            </div>
+        </div>
 	</div>
+  
 	<hr>
 	<div class="header">
 		<div class="header-overlay">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 					<div class="name_R_H">
 						<h1>Robert Hitler</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 					<div class="header-text">
 						<h2>"Art is the only space you can do what you like.<span><strong>That's Freedom.</strong></span>"</h2>
 						<h4 style="font-family: 'Source Code Pro', monospace;">PAULA REGO</h4>
@@ -76,7 +72,7 @@
 		<div class="container">
 			<div id="de_co" class="row">
 				<div class="coder_part">
-					<div class="col-md-6">
+					<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 						<a href="works.html">
 							<div class="coder_bg">
 							<h1>&lt;!--coder--&gt;</h1>
@@ -85,7 +81,7 @@
 					</div>
 				</div>
 				<div class="designer_part">
-					<div class="col-md-6">
+					<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 						<a href="works.html">
 							<div class="designer_bg">
 								<h1>designer</h1>
@@ -103,7 +99,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="contact">
-					<div class="col-md-12">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 						<p style="padding: 0px 10px;"><strong style="padding-right: 20px;">CONTACT: </strong>Email Id -  <input style="padding-left: 20px;" type="text" value="robert.h.parikrma@gmail.com" id="myInput"></p>
 					</div>
 				</div>
@@ -115,12 +111,12 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 				<div id="copyrights">
 					<p>Copyrights &copy; 2018 - <a href="#" style="font-size: 15px;">RobertHitler</a></p>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 				<div class="scroll-top">
 					<a href="#"><i  class="fa fa-angle-up"></i></a>
 				</div>
@@ -135,6 +131,20 @@
 		document.execCommand("copy");
 		alert("Copied the text: " + copyText.value);
 	}
+    
+    /*let x = window.matchMedia("(max-width: 768px)");
+    //let mid = ['xl','lg','md','sm',''];
+    if(x.matches){
+        document.querySelector('.col-md-12').className.replace = 'col-sm-12';
+        document.querySelector('.col-md-4').className.replace = 'col-sm-4';
+        document.querySelector('.col-md-6').className.replace = 'col-sm-6';
+        document.querySelector('.col-md-8').className.replace = 'col-sm-8';
+    }else{
+        console.log('no');
+    }*/
+    
+    
+    
 </script>
 </body>
 </html>
