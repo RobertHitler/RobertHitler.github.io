@@ -3,6 +3,7 @@
 
 .main_header{
     width: 100%;
+    overflow: hidden;
 	background-color:#E9E9E9;
 	border-top: 5px solid black;
 	box-shadow: 2px 3px 4px 0.8px grey;
@@ -219,12 +220,13 @@ ul.nav_li li a:hover {
 
 .contact{
 	color: black;
-	padding: 40px 40px;
+	padding: 20px 20px;
 	text-align: center;
+    margin-left: 20%;
 	
 }
 .contact_email{
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	width: 100%;
 	background-color:#E9E9E9;
 }
@@ -365,6 +367,8 @@ footer{
     .designer_bg h1{
         font-size: 28px;
     }
+    
+    
 
     
     
@@ -375,13 +379,15 @@ footer{
     
     
     .coder_bg{
-        width: 60%;
-        height: 200px;
+        width: 80%;
+        height: 220px;
+        margin-left: 10%
         
     }
     .designer_bg{
-        width: 60%;
-        height: 200px;
+        width: 80%;
+        height: 220px;
+        margin-left: 10%
         
     }
 
@@ -393,22 +399,37 @@ footer{
         font-size: 25px;
     }
     
+    .coder_bg:hover{
+        margin-left: 20px;
+        width: 85%;
+        height: 220px;
+       
+    }
+    .designer_bg:hover{
+        width: 85%;
+        margin-left: 20px;
+        height: 220px;
+
+
+    }
+    
     
 }
 
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 765px){
     
     .logo{
-        width: 18%;
-        margin-left: 12%;
+        width: 20%;
+        margin-left: 5%;
 
     }
     
     .navi{
-        width: 50%;
-        margin-left: 20%;
+        width: 70%;
+        margin-left: 5%;
+        padding-left: 150px;
     }
     
     .img_logo{
@@ -417,12 +438,12 @@ footer{
     }
     
     ul.nav_li li {
-        width: 25%;
+        width: 30%;
 
     }
     
     ul.nav_li li a {
-        font-size: 13px;
+        font-size: 12px;
         padding: 8px 0px;
         letter-spacing: 1px;
         font-weight: 549;
@@ -474,7 +495,7 @@ footer{
     
     .coder_bg{
         width: 50%;
-        height: 200px;
+        height: 220px;
         margin-top: 25px;
         padding-top: 90px;
         margin-left: 25%;
@@ -482,7 +503,7 @@ footer{
     }
     .designer_bg{
         width: 50%;
-        height: 200px;
+        height: 220px;
         margin-top: 50px;
         margin-left: 25%;
         padding-top: 90px;
@@ -512,12 +533,168 @@ footer{
     
     .coder_bg h1{
         font-size: 22px;
+        
     }
     
     .designer_bg h1{
         font-size: 22px;
     }
+    
+    
+    .contact{
+        margin-left: 0%;
 
+    }
+
+    
+    
+}
+
+
+@media only screen and (max-width: 670px){
+    
+    
+    .navi{
+        display: none;
+    }
+    
+    .name_R_H h1{
+        font-size: 14px;
+        letter-spacing: 9px;
+        font-weight: 500;
+        
+    }
+    
+
+    .header-text h2{
+        font-size: 17px;
+        padding: 10px 0px;
+        margin-bottom: 30px;
+        line-height: inherit;
+        letter-spacing:inherit;
+    }
+
+    .header-text h2::after{
+        content:"";
+        position: absolute;
+        bottom: 20px;
+        left: 53.5%;
+        width: 100px;
+        height: 1px;
+        background-color:#8A8A8A;
+        margin-left: -75px;
+
+    }
+    
+    #myInput{
+        width: 200px;
+    }
+    
+    .name_R_H{
+        margin-top: 50px; 
+        height: 180px;
+        padding: 100px 0px 0px 0px;
+    }
+
+    .header-text{
+        margin-bottom: 90px;
+        padding: 0px;
+
+    }
+    
+    .header-text h4{
+        font-size: 12px;
+
+    }
+    
+    .coder_bg:hover{
+        margin-left: 100px;
+        width: 55%;
+        height: 220px;
+       
+    }
+    .designer_bg:hover{
+        width: 55%;
+        margin-left: 100px;
+        height: 220px;
+
+
+    }
+    
+    
+}
+
+
+
+@media only screen and (max-width: 375px){
+    
+    
+    .navi{
+        display: none;
+    }
+    
+    .name_R_H h1{
+        font-size: 14px;
+        letter-spacing: 9px;
+        font-weight: 500;
+        
+    }
+    
+
+    .header-text h2{
+        font-size: 17px;
+        padding: 10px 0px;
+        margin-bottom: 30px;
+        line-height: inherit;
+        letter-spacing:inherit;
+    }
+
+    .header-text h2::after{
+        content:"";
+        position: absolute;
+        bottom: 20px;
+        left: 53.5%;
+        width: 100px;
+        height: 1px;
+        background-color:#8A8A8A;
+        margin-left: -75px;
+
+    }
+    
+    #myInput{
+        width: 200px;
+    }
+    
+    .name_R_H{
+        margin-top: 50px; 
+        height: 180px;
+        padding: 100px 0px 0px 0px;
+    }
+
+    .header-text{
+        margin-bottom: 90px;
+        padding: 0px;
+
+    }
+    
+    .header-text h4{
+        font-size: 12px;
+
+    }
+    
+    .coder_bg:hover{
+        margin-left: 100px;
+        width: 55%;
+        height: 220px;
+       
+    }
+    .designer_bg:hover{
+        width: 55%;
+        margin-left: 100px;
+        height: 220px;
+
+
+    }
     
     
 }
