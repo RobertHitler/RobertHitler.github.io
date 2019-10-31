@@ -25,7 +25,7 @@
 	            <a href="index.html"><img src="images/PORTFOLIO_LOGO_2.0_1.png" alt="Logo" class="img_logo" ></a>
 	        </div>
 	    </div>
-		<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+		<div class="col-8 col-sm-8 col-md-7 col-lg-8 col-xl-8">
 			<div class="navi">
 				<nav>
 					<ul class="nav_li" text-center>
@@ -41,12 +41,13 @@
 <hr>
 <section class="abt_content">
 	<div class="main_content">
-	    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+	    <div class="col-xs-5 col-sm-4 col-md-4 col-lg-4 col-xl-4">
 	        <div class="my_pic">
-                <p>&lt;&gt;</p>
+                <img alt="my_image" src="images/my_img_1.png" class="my_image1">
+                <img alt="my_image" src="images/abt_me_BG_1.png" class="my_image2" style="display: none">
             </div>
 	    </div>
-		<div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+		<div class="col-xs-10 col-sm-8 col-md-8 col-lg-8 col-xl-8">
 		    <div class="abt_me">
                 <h2 style="color: black;">About <span style="font-size: 20px">me</span></h2>
                 <h5>designer + coder</h5>
@@ -61,11 +62,11 @@
 	</div>
 </section>
 <hr>
-<section class="interests">
-	<div class="interests-overlay">
-		<div class="container">
+<section>
+	<div class="interests">
+		<div class="interests-overlay">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<div class="col-xs-10 col-sm-10 col-md-12 col-lg-12 col-xl-12">
 					  <div id="myCarousel" class="carousel slide" data-ride="carousel">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
@@ -117,10 +118,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="contact">
-					<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<div class="col-xs-6 col-sm-6 col-md-8 col-lg-8 col-xl-8">
 						<p style="padding: 0px 10px;"><strong style="padding-right: 20px;">CONTACT: </strong>Email Id -  <input style="padding-left: 20px;" type="text" value="robert.h.parikrma@gmail.com" id="myInput"></p>
 					</div>
-					<div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
 					    <div class=github>
 					        <a href="CV_PAGE.html"><img src="images/github.png" style="height: 70px;width: 110px;"></a>
 					    </div>	
@@ -154,6 +155,25 @@
 		alert("Copied the text: " + copyText.value);
         console.log("Hello world")
 }
+    
+    
+document.querySelector('.my_pic').onmouseover = function(){hover1()};
+  function hover1(){
+      document.querySelector('.my_image1').style.display = 'none';
+      document.querySelector('.my_image2').style.display = 'block';
+      
+  }
+   
+document.querySelector('.my_pic').onmouseout = function(){hover2()};
+  function hover2(){
+      document.querySelector('.my_image1').style.display = 'block';
+      document.querySelector('.my_image2').style.display = 'none';
+      
+  }
+   
+
+    
+    
 </script>
 </body>
 </html>

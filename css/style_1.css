@@ -16,33 +16,39 @@
 }
 
 .my_pic{
-	width: 78.5%;
+	width: 70%;
 	height: 500px;
-	background-image: url(../images/my_img_1.png);
+	/*background-image: url(../images/my_img_1.png);*/
     background-repeat: no-repeat;
-	padding: 10px 30px;
-    margin: 50px 0px 0px 100px;
+    margin-top: 12%;
+    margin-left: 25%;
 	border-bottom: 5px solid #707070;
 	/*border-right: 5px solid #707070;*/
 	box-shadow: 7px 7px 7px 2px lightgrey;
 }
-.my_pic p{
-	font-size: 20px;
-	font-family: 'Play', sans-serif;
-	text-align: center;
-	width: 50%;
-	height: 50px;
-	padding: 10px 30px;
-	margin: 70px;
-}
-.my_pic:hover{
-	background-image: url(../images/abt_me_BG_1.png);
+
+.my_image1{
+    width: 100%;
+	height: 100%;
+	
 	
 }
+.my_image2{
+    width: 100%;
+	height: 100%;
+	
+}
+
+
+/*.my_pic:hover{
+	background-image: url(../images/abt_me_BG_1.png);
+	
+}*/
 .abt_me{
 	width: 80%;
 	height:540px;
     margin-left: 8%;
+    margin-top: 1%;
 	background-color:#b8b8b8;
 	/*background-image:url(../images/color_bg1.png);*/
 	background-size: cover;
@@ -78,35 +84,27 @@
 
 /*==features==*/
 
-.interests{
-	margin: 100px 0px;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	-moz-background-size: cover;
-	background-position: 50% 50%;
-	background-color: #707070;
-}
 
 .interests-overlay{
-	padding-top: 20px;
-	padding-bottom: 10px;
-	
-}
-.carousel{
-	background-color:#b8b8b8;
+    width: 90%;
+    margin-left: 5%;
+	background-color: #707070;
+    padding-bottom: 3%;
+    padding-top: 2%;
 	
 }
 
-.carousel-inner{
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
 
 .testimon-caption{
 	padding-bottom: 20px;
+}
+
+.carousel-inner{
+    width: 80%;
+    background-color:#b8b8b8;
+    margin-left: 10%;
+    padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 
@@ -132,8 +130,437 @@
 }
 
 .github{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     float: left;
-    margin-left: 400px
+    margin-left: 83%;
 }
+
+@media only screen and (max-width: 1350px){
+    
+    .my_pic{
+        width: 80%;
+        height: 450px;
+        margin-left: 25%;
+    }
+    
+    .abt_me{
+        height: 500px;
+        width: 80%;
+        margin-left: 8%;
+    }
+    
+    .abt_me h2{
+        font-size: 28px;
+        padding-top: 40px;
+        margin-top: 2%;
+    }
+    .abt_me h5{
+        font-size: 20px;
+        letter-spacing: 4px;
+        padding: 5px 10px;
+        margin-top: 5px;
+    }
+    .abt_me p{
+        letter-spacing: 3px;
+        font-size: 15px;
+        padding: 30px 50px;
+    }
+    
+    
+    .carousel-inner .item img{
+        width: 35%;
+        height: 450px;
+    
+    }
+    
+}
+
+
+@media only screen and (max-width: 1020px){
+    
+    .my_pic{
+        width: 80%;
+        height: 450px;
+        margin-left: 25%;
+    }
+    
+    .abt_me{
+        height: 500px;
+        width: 80%;
+        margin-left: 8%;
+    }
+    
+    .abt_me h2{
+        font-size: 28px;
+        padding-top: 40px;
+        margin-top: 2%;
+    }
+    .abt_me h5{
+        font-size: 20px;
+        letter-spacing: 4px;
+        padding: 5px 10px;
+        margin-top: 5px;
+    }
+    .abt_me p{
+        letter-spacing: 3px;
+        font-size: 15px;
+        padding: 30px 50px;
+    }
+    
+    
+    .carousel-inner .item img{
+        width: 40%;
+        height: 400px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 992px){
+    
+    .abt_content{
+        margin-top: 170px;
+    }
+    
+    .my_pic{
+        width: 88%;
+        height: 320px;
+        margin-left: 10%;
+        margin-top: 25%;
+    }
+    
+    .abt_me{
+        height: 450px;
+        width: 85%;
+        margin-left: 8%;
+    }
+    
+    .abt_me h2{
+        font-size: 24px;
+        padding-top: 40px;
+        margin-top: 2%;
+    }
+    .abt_me h5{
+        font-size: 18px;
+        letter-spacing: 4px;
+        padding: 5px 10px;
+        margin-top: 5px;
+    }
+    .abt_me p{
+        letter-spacing: 3px;
+        font-size: 13px;
+        padding: 13px 30px;
+    }
+    
+    
+    .carousel-inner .item img{
+        width: 47%;
+        height: 400px;
+        /*border-radius: 50%;*/
+        padding: 3px;
+        box-shadow: 7px 7px 7px 2px grey;
+    }
+    
+    .carousel-indicators{
+        margin-left: -20%;
+    }
+    
+    .carousel-inner{
+        width: 90%;
+        background-color:#b8b8b8;
+        margin-left: 15%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 767px){
+    
+    .abt_content{
+        height: 1000px;
+        margin-top: 170px;
+        margin-bottom: 20px;
+    }
+    
+    .my_pic{
+        width: 90%;
+        height: 320px;
+        margin-left: 80%;
+        margin-top: 25%;
+    }
+    
+    .abt_me{
+        height: 450px;
+        width: 90%;
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+    
+    .abt_me h2{
+        font-size: 24px;
+        padding-top: 40px;
+        margin-top: 2%;
+    }
+    .abt_me h5{
+        font-size: 18px;
+        letter-spacing: 5px;
+        padding: 5px 10px;
+        margin-top: 5px;
+    }
+    .abt_me p{
+        letter-spacing: 3px;
+        font-size: 14px;
+        padding: 13px 30px;
+    }
+    
+    .carousel-inner .item img{
+        width: 65%;
+       
+    }
+    
+    
+    .carousel-inner{
+        width: 80%;
+        background-color:#b8b8b8;
+        margin-left: 20%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 667px){
+    
+    .abt_content{
+        height: 850px;
+        margin-top: 130px;
+        margin-bottom: 30px;
+    }
+    
+    .my_pic{
+        height: 290px;
+    }
+    
+    .abt_me{
+        height: 400px;
+      
+    }
+    
+    .abt_me h2{
+        font-size: 22px;
+        padding-top: 30px;
+        margin-top: 1%;
+    }
+    .abt_me h5{
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin-top: 4px;
+    }
+    .abt_me p{
+        letter-spacing: 2px;
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+    
+    .carousel-inner .item img{
+        width: 65%;
+        height: 350px;
+       
+    }
+    
+    .carousel-inner{
+        width: 80%;
+        background-color:#b8b8b8;
+        margin-left: 20%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 570px){
+    
+    .abt_content{
+        height: 850px;
+        margin-top: 130px;
+        margin-bottom: 30px;
+    }
+    
+    .my_pic{
+        height: 260px;
+    }
+    
+    .abt_me h5{
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin-top: 4px;
+    }
+    
+    .carousel-inner .item img{
+        width: 70%;
+        height: 350px;
+       
+    }
+    
+    .carousel-inner{
+        width: 80%;
+
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 510px){
+    
+    .abt_content{
+        height: 800px;
+        margin-top: 130px;
+        margin-bottom: 30px;
+    }
+    
+    .my_pic{
+        width: 100%;
+        height: 250px;
+        margin-left: 80%;
+    }
+    
+    .abt_me{
+        height: 450px;
+      
+    }
+    
+    .carousel-inner .item img{
+        width: 80%;
+        height: 360px;
+       
+    }
+    
+    .carousel-inner{
+        width: 90%;
+        background-color:#b8b8b8;
+        margin-left: 15%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 435px){
+    
+    .abt_content{
+        height: 800px;
+        margin-top: 130px;
+        margin-bottom: 30px;
+    }
+    
+    .my_pic{
+        width: 100%;
+        height: 250px;
+        margin-left: 80%;
+    }
+    
+    .abt_me{
+        width: 100%;
+        height: 450px;
+        margin-left: 10%;
+      
+    }
+    
+    .carousel-inner .item img{
+        width: 80%;
+        height: 340px;
+       
+    }
+    
+    .carousel-inner{
+        width: 90%;
+        background-color:#b8b8b8;
+        margin-left: 15%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 395px){
+    
+    .my_pic{
+        width: 130%;
+        height: 270px;
+        margin-left: 65%;
+    }
+    
+    .abt_me{
+        width: 105%;
+        height: 480px;
+        margin-left: 8%;
+      
+    }
+    
+    .carousel-inner .item img{
+        width: 80%;
+        height: 340px;
+       
+    }
+    
+    .carousel-inner{
+        width: 90%;
+        background-color:#b8b8b8;
+        margin-left: 15%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 350px){
+    
+     .my_pic{
+        width: 150%;
+        height: 260px;
+        margin-left: 60%;
+    }
+    .abt_me{
+        width: 120%;
+        height: 480px;
+        margin-left: 3%;
+      
+    }
+    
+    
+    
+    .carousel-inner .item img{
+        width: 90%;
+        height: 320px;
+       
+    }
+    
+    .carousel-inner{
+        width: 95%;
+        background-color:#b8b8b8;
+        margin-left: 13%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+
+}
+
+
+
+
