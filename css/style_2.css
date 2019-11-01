@@ -44,8 +44,14 @@
 		
 }
 
+.image h6{
+     color: grey;
+}
+
+
 .image:hover{
 	opacity: 0.6;
+   
 }
 .imgsize{
 	width: 95%;
@@ -68,8 +74,9 @@
     .image{
         width: 90%;
         height: 260;
-        margin-left: 5%;
+        margin-left: 33%;
         float: left;
+        margin-top: 15%;
         
     }
 }
@@ -117,12 +124,9 @@
     
     .image{
         height: 255px;
-        
-        
+            
     }
-    .image h4{
-        font-size: 14px;
-    }
+    
     
    
 }
