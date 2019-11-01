@@ -25,12 +25,17 @@
 <body>
 <header>
 	<div class="main_header">
-	    <div class="col-2 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+	    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 col-xl-3">
 		    <div class="logo">
 		    	<a href="index.html"><img src="images/PORTFOLIO_LOGO_2.0_1.png" alt="Logo" class="img_logo" ></a>
 		    </div>
 	    </div>
-		<div class="col-md-8">
+	     <div class = "col-xs-6 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+           <div class="ic_spce">
+                <a href="#navi" class="icon" onclick="mob_menu()"><i class="fa fa-bars"></i></a>
+           </div>
+        </div>
+		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
 			<div class="navi">
 				<nav>
 					<ul class="nav_li" text-center>
@@ -44,6 +49,9 @@
     </div>
 	<hr>
 </header>
+<div class="space" >
+      
+  </div>
 <hr>
 <section>
 	<div class="CV_page" style="width: 100%;">
@@ -79,6 +87,18 @@
 		document.execCommand("copy");
 		alert("Copied the text: " + copyText.value);
 	}
+    
+     function mob_menu(){
+        var icon = document.querySelector('.navi');
+        var space = document.querySelector('.space');
+        if(icon.style.display === 'block'){
+            icon.style.display ='none';
+            space.style.height = '80px';
+        }else{
+            icon.style.display = 'block';
+            space.style.height = '200px';
+        }
+    }
 </script>
 </body>
 </html>

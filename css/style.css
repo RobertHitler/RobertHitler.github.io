@@ -2,7 +2,6 @@
 /* CSS Document */
 
 .main_header{
-    margin-top: -1.2%;
     width: 100%;
     overflow: hidden;
 	background-color:#E9E9E9;
@@ -11,6 +10,11 @@
     float: left;
 }
 
+.space{
+        width: 100%;
+        height: 0px;
+    }
+    
 
 .logo{
     width: 30%;
@@ -22,11 +26,24 @@
 
 .navi{
     width: 70%;
-    margin-left: 30%;
+    margin-left: 40%;
+    padding-left: 18%;
     margin-top: 1%;
     float: left;
     
     
+}
+
+.ic_spce{
+    width: 100%;
+    margin-left: 90%;
+    padding-top: 20px;
+    display: none;
+}
+
+.ic_spce .icon{
+    font-size: 30px;
+    color: black;
 }
 
 .img_logo{
@@ -148,7 +165,7 @@ ul.nav_li li a:hover {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
-	
+    
 }
 
 .designer_part a{
@@ -376,6 +393,15 @@ footer{
 @media only screen and (max-width: 990px){
     
     
+    .navi{
+        width: 75%;
+        margin-left: 30%;
+        padding-left: 1%;
+        margin-top: 1%;
+        float: left;
+
+
+    }
     .coder_bg{
         width: 80%;
         height: 220px;
@@ -416,7 +442,12 @@ footer{
 
 
 
-@media only screen and (max-width: 765px){
+@media only screen and (max-width: 767px){
+    
+    .space{
+        width: 100%;
+        height:80px;
+    }
     
     .logo{
         width: 20%;
@@ -425,9 +456,15 @@ footer{
     }
     
     .navi{
-        width: 70%;
-        margin-left: 5%;
-        padding-left: 150px;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 0%;
+        background-color: #333333;
+        display: none;
+    }
+    
+     .ic_spce{
+        display: block;
     }
     
     .img_logo{
@@ -435,9 +472,10 @@ footer{
         height: 70px;
     }
     
-    ul.nav_li li {
-        width: 30%;
 
+    ul.nav_li li {
+	    background-color:#333333;
+        width: 30%;
     }
     
     ul.nav_li li a {
@@ -445,19 +483,21 @@ footer{
         padding: 8px 0px;
         letter-spacing: 1px;
         font-weight: 549;
+        color: #E9E9E9;
     }
-
     
-   
-    .name_R_H h1{
-        font-size: 16px;
-        letter-spacing: 11px;
-        
+     ul.nav_li li:hover {
+	    background-color:#E9E9E9;
     }
+    
+    ul.nav_li li a:hover {
+        color: #333333;
+    }
+    
     
 
     .header-text h2{
-        font-size: 18px;
+        font-size: 16px;
         padding: 10px 0px;
         margin-bottom: 30px;
     }
@@ -475,9 +515,15 @@ footer{
     }
     
     .name_R_H{
-        margin-top: 130px; 
+        margin-top: 70px; 
         height: 180px;
         padding: 100px 0px 0px 0px;
+    }
+    
+    .name_R_H h1{
+        font-size: 17px;
+        letter-spacing: 13px;
+        
     }
 
     .header-text{
@@ -513,6 +559,15 @@ footer{
         font-size: 20px;
         width: 100%;
         padding: 2px 0px;
+        color: #E9E9E9;
+        background-color: #333333;
+
+    }
+    
+
+    .btn:hover{
+        color: #333333;
+        background-color: #E9E9E9;
 
     }
     
@@ -550,26 +605,23 @@ footer{
 
 
 @media only screen and (max-width: 670px){
-    
-    
-    .navi{
-        display: none;
-    }
-    
+
+
     .name_R_H h1{
-        font-size: 14px;
+        font-size: 17px;
         letter-spacing: 9px;
         font-weight: 500;
         
     }
+
     
 
     .header-text h2{
-        font-size: 17px;
+        font-size: 16px;
         padding: 10px 0px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         line-height: inherit;
-        letter-spacing:inherit;
+        letter-spacing:1px;
     }
 
     .header-text h2::after{
@@ -590,13 +642,13 @@ footer{
     
     .name_R_H{
         margin-top: 50px; 
-        height: 180px;
-        padding: 100px 0px 0px 0px;
+        height: 140px;
+        padding: 70px 0px 0px 0px;
     }
 
     .header-text{
         margin-bottom: 90px;
-        padding: 0px;
+        padding-bottom: 0px;
 
     }
     
@@ -624,6 +676,33 @@ footer{
 
 
 @media only screen and (max-width: 490px){
+    
+    ul.nav_li li {
+        width: 100%;
+        padding-top: 5px;
+    
+    }
+    
+    .name_R_H h1{
+        font-size: 16px;
+        letter-spacing: 7px;
+        font-weight: 500;
+        
+    }
+    
+    .header-text h2{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .header-text h2::after{
+        bottom: 20px;
+        left: 56%;
+        width: 90px;
+        height: 1px;
+    }
+    
+    
     .coder_bg{
         width: 70%;
         height: 230px;
@@ -652,35 +731,30 @@ footer{
 }
 
 
-
 @media only screen and (max-width: 375px){
     
     
-    .navi{
-        display: none;
-    }
-    
     .name_R_H h1{
-        font-size: 14px;
-        letter-spacing: 9px;
+        font-size: 13px;
+        letter-spacing: 7px;
         font-weight: 500;
         
     }
     
 
     .header-text h2{
-        font-size: 17px;
+        font-size: 12px;
         padding: 10px 0px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         line-height: inherit;
-        letter-spacing:inherit;
+        letter-spacing: 1px;
     }
 
     .header-text h2::after{
         content:"";
         position: absolute;
         bottom: 20px;
-        left: 53.5%;
+        left: 56.5%;
         width: 100px;
         height: 1px;
         background-color:#8A8A8A;
@@ -693,9 +767,9 @@ footer{
     }
     
     .name_R_H{
-        margin-top: 50px; 
-        height: 180px;
-        padding: 100px 0px 0px 0px;
+        margin-top: 10px; 
+        height: 120px;
+        padding: 80px 0px 0px 0px;
     }
 
     .header-text{
@@ -705,7 +779,7 @@ footer{
     }
     
     .header-text h4{
-        font-size: 12px;
+        font-size: 10px;
 
     }
     
