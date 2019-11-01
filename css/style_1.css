@@ -561,6 +561,43 @@
 
 }
 
+@media only screen and (max-width: 327px){
+    .abt_content{
+        height: 820px;
+    }
+
+    .abt_me{
+        width: 120%;
+        height: 510px;
+        margin-left: 3%;
+      
+    }
+    
+    abt_me h2{
+        font-size: 20px;
+    }
+    
+    .abt_me h5{
+        font-size: 14px;
+    }
+    
+    
+    .carousel-inner .item img{
+        width: 95%;
+        height: 310px;
+       
+    }
+    
+    .carousel-inner{
+        width: 100%;
+        margin-left: 11%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+
+}
+
 
 
 
