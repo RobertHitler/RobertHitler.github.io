@@ -237,6 +237,24 @@ ul.nav_li li a:hover {
 	
 }
 
+.cv_container{
+    width: 100%;
+	background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.cv_page{
+    width: 75%;
+    margin-left: 40%;
+    float: left;
+   
+}
+
+.cv_image{
+    width: 90%;
+}
+
 .contact{
 	color: black;
 	padding: 20px 20px;
@@ -253,6 +271,8 @@ ul.nav_li li a:hover {
 
 footer{
 	background-color: #333333;
+    margin-top: 100px;
+    position: relative;
 	padding-top: 28px;
 	padding-bottom: 28px;
 	border-bottom: 5px solid black;
@@ -283,6 +303,10 @@ footer{
 	font-size: 20px;
 	color: white;
 }
+
+
+
+
 
 
 /*-------CV PAGE-----*/
@@ -390,7 +414,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 991px){
     
     
     .navi{
@@ -436,7 +460,17 @@ footer{
 
 
     }
-    
+    .cv_page{
+        width: 100%;
+        margin-left: 15%;
+        float: left;
+
+    }
+
+    .cv_image{
+        width: 90%;
+    }
+
     
 }
 
@@ -598,8 +632,6 @@ footer{
         margin-left: 0%;
 
     }
-
-    
     
 }
 
@@ -671,6 +703,11 @@ footer{
 
     }
     
+    .cv_container{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    
     
 }
 
@@ -727,6 +764,21 @@ footer{
         width: 73%;
         margin-left: 60px;
 
+    }
+    .cv_container{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .cv_page{
+        width: 100%;
+        margin-left: 10%;
+        float: left;
+
+    }
+
+    .cv_image{
+        width: 100%;
     }
 }
 
