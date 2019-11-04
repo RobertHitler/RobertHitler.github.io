@@ -41,7 +41,7 @@
                     <ul class="nav_li" text-center>
 		                <li><a href="works.html">Works</a></li>
 				        <li><a href="About_me.html">About me</a></li>
-				        <li><button class="btn" onclick="myFunction()"><i class="fa fa-envelope"></i></button></li>
+				        
 		            </ul>
                 </nav>
             </div>
@@ -110,12 +110,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="contact">
-					<div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
-						<p style="padding: 0px 10px;"><strong style="padding-right: 10px;">CONTACT : </strong>Email Id -  <input style="padding-left: 20px;" type="text" value="robert.h.parikrma@gmail.com" id="myInput"></p>
+					<div class="col-xs-10 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+						<div class="mail_icon">
+						   <button class="btn" onclick="myFunction()"><i class="fa fa-envelope"></i></button><input style="padding-left: 20px;" type="text" value="robert.h.parikrma@gmail.com" id="myInput"> 
+						</div>
 					</div>
-					<div class="col-xs-2 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-					    <div class=github>
-					        <a href="CV_PAGE.html"><img src="images/github.png" style="height: 70px;width: 110px;"></a>
+					<div class="col-xs-2 col-sm-3 col-md-4 col-lg-4 col-xl-4">
+					    <div class="cv_git">
+					        <a href="https://github.com/RobertHitler" target="_blank" class="git_file"><img src="images/git_icon.png" ></a>
+                            <a href="CV_PAGE.html" class="cv_file">CV<i class="fa fa-file-text"></i></a>
 					    </div>	
 					</div>
 				</div>
@@ -125,11 +128,10 @@
 </section>
 
 <footer>
-	<div class="container">
-		<div class="row">
+	<div class="footer_row">
 			<div class="col-xs-10 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 				<div id="copyrights">
-					<p>Copyrights &copy; 2018 - <a href="#" style="font-size: 15px;">RobertHitler</a></p>
+					<p>2018 - <a href="#" style="font-size: 13px;">RobertHitler</a></p>
 				</div>
 			</div>
 			<div class="col-xs-2 col-sm-6 col-md-6 col-lg-6 col-xl-6">
@@ -138,7 +140,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 </footer>	
 <script>
 	function myFunction() {
