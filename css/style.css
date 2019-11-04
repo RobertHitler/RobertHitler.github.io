@@ -36,7 +36,7 @@
 
 .ic_spce{
     width: 100%;
-    margin-left: 90%;
+    margin-left: 95%;
     padding-top: 20px;
     display: none;
 }
@@ -282,6 +282,10 @@ ul.nav_li li a:hover {
     
 }
 
+.git_file img{
+    width: 23.5
+}
+
 .git_file:hover {
     background-color:grey;
     color: #E9E9E9;
@@ -455,6 +459,9 @@ footer{
         font-size: 28px;
     }
     
+    .cv_git{
+        margin-left: 35%;
+    }
     
 
     
@@ -518,8 +525,19 @@ footer{
     .cv_image{
         width: 90%;
     }
+    
+    .cv_git{
+        margin-left: 90%;
+    }
 
     
+}
+
+
+@media only screen and (max-width: 800px){
+    .cv_git{
+        margin-left: 60%;
+    }
 }
 
 
@@ -665,7 +683,17 @@ footer{
 
     }
     
+    .cv_git{
+        margin-left: 20%;
+    }
+    
+    #myInput{
+        width: 220px;
+    }
+    
 }
+
+
 
 
 @media only screen and (max-width: 670px){
@@ -740,6 +768,32 @@ footer{
         margin-bottom: 40px;
     }
     
+    .git_file {
+        width: 50%;
+        font-size: 10px;
+        padding: 17px 13px;
+
+
+    }
+
+    .git_file img{
+        width: 20%
+    }
+
+
+    .cv_file{
+        font-size: 10px;
+        width: 50%;
+        padding: 17px 6px;
+
+    }
+
+    .cv_git a i{
+        font-size: 16px;
+        margin-left: 8px;
+    }
+
+
     
 }
 
@@ -812,6 +866,50 @@ footer{
     .cv_image{
         width: 100%;
     }
+    
+     .cv_git{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    #myInput{
+        width: 160px;
+        height: 26px
+    }
+    
+     .git_file {
+        width: 50%;
+        font-size: 5px;
+        padding: 14px 8px;
+
+
+    }
+
+    .git_file img{
+        width: 18%;
+    }
+
+
+    .cv_file{
+        font-size: 9px;
+        width: 50%;
+        padding: 12px 5px;
+
+    }
+
+    .cv_git a i{
+        font-size: 14px;
+        margin-left: 2px;
+    }
+    
+    .btn{
+        font-size: 20px;
+        width: 10%;
+        margin: 0px 6px;
+
+    }
+
+
 }
 
 
@@ -844,10 +942,6 @@ footer{
         background-color:#8A8A8A;
         margin-left: -75px;
 
-    }
-    
-    #myInput{
-        width: 200px;
     }
     
     .name_R_H{
