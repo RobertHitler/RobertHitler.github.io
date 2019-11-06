@@ -3,6 +3,7 @@
 
 .main_header{
     width: 100%;
+    margin-top: -20px;
     overflow: hidden;
 	background-color:#E9E9E9;
 	border-top: 2px solid black;
@@ -166,6 +167,7 @@ ul.nav_li li a:hover {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
+    margin-top: 72px;
     
 }
 
@@ -544,6 +546,7 @@ footer{
 
 @media only screen and (max-width: 767px){
     
+    
     .space{
         width: 100%;
         height:80px;
@@ -552,6 +555,11 @@ footer{
     .logo{
         width: 20%;
         margin-left: 5%;
+
+    }
+    
+    .main_header{
+        margin-top: 0px;
 
     }
     
@@ -811,6 +819,11 @@ footer{
         letter-spacing: 7px;
         font-weight: 500;
         
+    }
+    
+    .img_logo{
+        width: 70px;
+        height: 50px;
     }
     
     .header-text h2{

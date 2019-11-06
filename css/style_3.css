@@ -44,13 +44,167 @@
 
 h4{
 	text-align: center;
-	padding: 40px 10px;
-	margin: 20px;
-	font-size: 18px;
+	padding: 20px 10px;
+    font-size: 18px;
+	margin: 10px;
 	font-family: 'Montserrat', sans-serif;
 }
 
 p{
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
 }
+
+
+@media only screen and (max-width:1034px){
+    
+    h4{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+@media only screen and (max-width:991px){
+    
+    .work_cont{
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    
+    /*.web_d,.prdct_d,.AR_d,.model_d{
+        padding-left: 13%;
+
+    }*/
+    
+    .web_d{
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+    .prdct_d{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .AR_d{
+        margin-top: 50px;
+        margin-bottom: 100px;
+       
+    }
+    .model_d{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .work_img img{
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    
+    .work_img h2{
+        font-size: 18px;
+    
+    }
+
+   
+}
+
+@media only screen and (max-width:767px){
+    
+    .work_cont{
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+    
+    .work_img img{
+        width: 100%;
+        margin-left: 4%;
+    }
+    
+    .work_img h2{
+        font-size: 17px;
+    
+    }
+    
+     .web_d{
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .prdct_d{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .AR_d{
+        margin-top: 50px;
+        margin-bottom: 80px;
+       
+    }
+    .model_d{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    
+   
+}
+
+
+@media only screen and (max-width:540px){
+    
+    
+    
+    h4{
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 13px;
+
+    }
+
+   
+}
+
+@media only screen and (max-width:375px){
+    
+    h4{
+        font-size: 14px;
+    }
+
+    p{
+        font-size: 12.5px;
+
+    }
+    
+    .work_img h2{
+        font-size: 15px;
+    
+    }
+     .web_d{
+        margin-top:40px;
+        margin-bottom: 40px;
+    }
+    .prdct_d{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .AR_d{
+        margin-top: 40px;
+        margin-bottom: 60px;
+       
+    }
+    .model_d{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
