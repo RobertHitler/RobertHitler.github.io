@@ -305,15 +305,31 @@ ul.nav_li li a:hover {
     margin-left: 5%;
 }
 
+.cv_file_dow{
+    text-decoration: none;
+    border: 0.4px solid #cecccc;
+    width: 50%;
+    padding: 17px 13px;
+    border-radius: 50px;
+    color: black;
+    margin-left: 5%;
+}
+
+.cv_file_dow:hover{
+    text-decoration: none;
+    background-color:grey;
+    color: black;
+}
+
 .cv_file:hover{
     text-decoration: none;
     background-color:grey;
     color: black;
 }
 
-.cv_git a i{
+.cv_file_dow i{
     font-size: 18px;
-    margin-left: 8px;
+    margin: 0px 4px;
 }
 
 
@@ -704,7 +720,7 @@ footer{
 
 
 
-@media only screen and (max-width: 670px){
+@media only screen and (max-width: 669px){
 
 
     .name_R_H h1{
@@ -779,7 +795,7 @@ footer{
     .git_file {
         width: 50%;
         font-size: 10px;
-        padding: 17px 13px;
+        padding: 18px 13px;
 
 
     }
@@ -795,10 +811,19 @@ footer{
         padding: 17px 6px;
 
     }
+    
+    .cv_file_dow{
+        font-size: 17px;
+        width: 50%;
+        padding: 15px 11px;
 
-    .cv_git a i{
+    }
+    
+    
+
+    .cv_file_dow i{
         font-size: 16px;
-        margin-left: 8px;
+        margin: 0px 5px;
     }
 
 
@@ -893,7 +918,7 @@ footer{
      .git_file {
         width: 50%;
         font-size: 5px;
-        padding: 14px 8px;
+        padding: 16px 8px;
 
 
     }
@@ -909,10 +934,16 @@ footer{
         padding: 12px 5px;
 
     }
+    
+     .cv_file_dow{
+        width: 50%;
+        padding: 7px 8px 12px 8px;
 
-    .cv_git a i{
+    }
+
+    .cv_file_dow i{
         font-size: 14px;
-        margin-left: 2px;
+        margin: 0px 5px;
     }
     
     .btn{
@@ -999,6 +1030,12 @@ footer{
         margin-left: 10%;
         padding-top: 90px;
         /*background-color: #8A8A8A;*/
+    }
+    
+    .git_file {
+        padding: 16px 10px;
+
+
     }
     
     
