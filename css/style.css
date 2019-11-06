@@ -299,7 +299,7 @@ ul.nav_li li a:hover {
     font-size: 12px;
     border: 0.4px solid #cecccc;
     width: 50%;
-    padding: 20px 8px;
+    padding: 19px 8px;
     border-radius: 50px;
     color: black;
     margin-left: 5%;
@@ -330,6 +330,11 @@ ul.nav_li li a:hover {
 .cv_file_dow i{
     font-size: 18px;
     margin: 0px 4px;
+}
+
+.cv_file i{
+    font-size: 18px;
+    margin-left: 5px;
 }
 
 
@@ -929,9 +934,9 @@ footer{
 
 
     .cv_file{
-        font-size: 9px;
+        font-size: 8px;
         width: 50%;
-        padding: 12px 5px;
+        padding: 14px 6px;
 
     }
     
@@ -944,6 +949,11 @@ footer{
     .cv_file_dow i{
         font-size: 14px;
         margin: 0px 5px;
+    }
+    
+    .cv_file i{
+        font-size: 15px;
+        margin-left: 3px;
     }
     
     .btn{
