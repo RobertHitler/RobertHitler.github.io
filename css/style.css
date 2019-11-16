@@ -248,14 +248,14 @@ ul.nav_li li a:hover {
 }
 
 .cv_page{
-    width: 75%;
-    margin-left: 40%;
+    width: 100%;
+    margin-left: 25%;
     float: left;
    
 }
 
 .cv_image{
-    width: 90%;
+    width: 100%;
 }
 
 .contact{
