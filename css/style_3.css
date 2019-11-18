@@ -20,6 +20,10 @@
 .work_img img{
     width: 90%;
 }
+
+/*#web_sec{
+    display: none;
+}*/
 .web_d{
 	width: 100%;
 	margin: 100px 0px;
