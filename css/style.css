@@ -243,19 +243,25 @@ ul.nav_li li a:hover {
 .cv_container{
     width: 100%;
 	background-size: cover;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-bottom: 80px;
 }
 
 .cv_page{
     width: 100%;
     margin-left: 25%;
+    margin-bottom: 25px;
+    padding: 10px;
     float: left;
+    background-color: #E9E9E9;
+    
+
    
 }
 
 .cv_image{
     width: 100%;
+    
 }
 
 .contact{
@@ -537,13 +543,13 @@ footer{
     }
     .cv_page{
         width: 100%;
-        margin-left: 15%;
+        margin-left: 10%;
         float: left;
 
     }
 
     .cv_image{
-        width: 90%;
+        width: 100%;
     }
     
     .cv_git{
@@ -662,6 +668,21 @@ footer{
         font-size: 13px;
 
     }
+    .cv_container{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .cv_page{
+        width: 90%;
+        margin-left: 5%;
+   
+    }
+
+    .cv_image{
+        width: 100%;
+    
+    }
     
     .coder_bg{
         width: 50%;
@@ -711,6 +732,8 @@ footer{
     .cv_git{
         margin-left: 20%;
     }
+
+
     
     #myInput{
         width: 220px;
@@ -902,7 +925,7 @@ footer{
     
     .cv_page{
         width: 100%;
-        margin-left: 10%;
+        margin-left: 0%;
         float: left;
 
     }
