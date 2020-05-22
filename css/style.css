@@ -386,7 +386,23 @@ footer{
 	color: white;
 }
 
+.cap_pro{
+    width: 50%;
+    height: 50px;
+    padding:10px 50px;
+}
 
+.cap_p{
+    width: 60%;
+    float: left;
+    color: red;
+    font-weight: 500;
+}
+
+.cap_a{
+    width: 40%;
+    float: left;
+}
 
 
 
@@ -489,6 +505,21 @@ footer{
         margin-left: 35%;
     }
     
+    .cap_pro{
+        width: 50%;
+        height: 50px;
+        padding:10px 50px;
+    }
+
+    .cap_p{
+        width: 70%;
+        float: left;
+    }
+
+    .cap_a{
+        width: 30%;
+        float: left;
+    }
 
     
     
@@ -555,6 +586,25 @@ footer{
     .cv_git{
         margin-left: 90%;
     }
+    
+    .cap_pro{
+        width: 60%;
+        height: 50px;
+        padding:50px 60px;
+        margin-top: 20px;
+        
+    }
+
+    .cap_p{
+        width: 80%;
+        float: left;
+    }
+
+    .cap_a{
+        width: 20%;
+        float: left;
+    }
+
 
     
 }
@@ -852,7 +902,26 @@ footer{
         font-size: 16px;
         margin: 0px 5px;
     }
+    
+   
 
+    .cap_pro{
+        width: 70%;
+        height: 50px;
+        padding:50px 30px;
+        margin-top: 20px;
+        
+    }
+
+    .cap_p{
+        width: 80%;
+        float: left;
+    }
+
+    .cap_a{
+        width: 20%;
+        float: left;
+    }
 
     
 }
@@ -999,6 +1068,24 @@ footer{
         font-size: 11px
     }
     
+    .cap_pro{
+        width: 90%;
+        height: 50px;
+        padding:30px 20px;
+        margin-top: 20px;
+        
+    }
+
+    .cap_p{
+        width: 80%;
+        float: left;
+    }
+
+    .cap_a{
+        width: 20%;
+        float: left;
+        
+    }
 
 
 
@@ -1085,6 +1172,26 @@ footer{
 
 
     }
+    
+    .cap_pro{
+        width: 100%;
+        height: 50px;
+        padding:30px 20px;
+        margin-top: 20px;
+        
+    }
+
+    .cap_p{
+        width: 80%;
+        float: left;
+    }
+
+    .cap_a{
+        width: 20%;
+        float: left;
+        
+    }
+
     
     
 }

@@ -55,6 +55,7 @@ function web(){
         x3.display = 'none';
         x4.display = 'none';
         x5.display = 'none';
+        x6.display = 'none';
         
     }
 
@@ -66,6 +67,8 @@ function prod(){
     x3.display = 'none';
     x4.display = 'none';
     x5.display = 'none';
+    x6.display = 'none';
+    
 }
 
 function model(){
@@ -75,6 +78,8 @@ function model(){
     x3.display = 'block';
     x4.display = 'block';
     x5.display = 'none';
+    x6.display = 'none';
+    
 }
 
 function aug_re(){
@@ -84,4 +89,18 @@ function aug_re(){
     x3.display = 'none';
     x4.display = 'none';
     x5.display = 'block';
+    x6.display = 'none';
+    
 }
+
+function data_vizz(){
+    document.getElementById('cont_5').href = '#data_sec';
+    x1.display = 'none';
+    x2.display = 'none';
+    x3.display = 'none';
+    x4.display = 'none';
+    x5.display = 'none';
+    x6.display = 'block';
+    
+}
+
